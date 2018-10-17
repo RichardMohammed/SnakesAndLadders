@@ -1,0 +1,9 @@
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.deps.json
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.csprojResolveAssemblyReference.cache
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.csproj.CoreCompileInputs.cache
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.AssemblyInfoInputs.cache
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.AssemblyInfo.cs
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
