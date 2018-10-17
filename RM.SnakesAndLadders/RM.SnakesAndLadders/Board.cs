@@ -7,13 +7,15 @@ namespace RM.SnakesAndLadders
     public class Board
     {
         private List<Token> _playerTokens;
-        public string Status;
         public string Message;
+        
+        public PlayStatus Status;
+
 
         public Board(List<Token> playerTokens)
         {
             _playerTokens = playerTokens;
-            Status = "PLAYING";
+            Status = PlayStatus.Playing;
         }
         
         public bool WinnerFound()
@@ -23,7 +25,7 @@ namespace RM.SnakesAndLadders
                 if(token.SquarePosition == 100)
                 {
                     token.IsWinner = true;
-                    Status = "GAME OVER";
+                    Status = PlayStatus.Over;
                     Message = $"{token.PlayerName} Wins!!!";
                     return true;
                 }

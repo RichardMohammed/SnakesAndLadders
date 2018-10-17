@@ -17,7 +17,7 @@ namespace RM.SnakesAndLadders.Tests
             var playerWins = gameBoard.WinnerFound();
 
             Assert.True(playerWins);
-            Assert.True(gameBoard.Status == "GAME OVER");
+            Assert.True(gameBoard.Status == PlayStatus.Over);
         }
 
         [Fact]
@@ -30,7 +30,7 @@ namespace RM.SnakesAndLadders.Tests
             var playerWins = gameBoard.WinnerFound();
 
             Assert.True(!playerWins);
-            Assert.True(gameBoard.Status == "PLAYING");
+            Assert.True(gameBoard.Status == PlayStatus.Playing);
         }
     }
 }
