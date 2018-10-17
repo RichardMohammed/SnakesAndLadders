@@ -16,6 +16,7 @@ namespace RM.SnakesAndLadders
         {
             _playerTokens = playerTokens;
             Status = PlayStatus.Playing;
+            Message = "In play";
         }
         
         public bool WinnerFound()
@@ -39,6 +40,5 @@ namespace RM.SnakesAndLadders
             // We can use this to move the tokens across the board in the GUI
             // based on the size of the board and the position of the squares on screen
         }
-
     }
 }

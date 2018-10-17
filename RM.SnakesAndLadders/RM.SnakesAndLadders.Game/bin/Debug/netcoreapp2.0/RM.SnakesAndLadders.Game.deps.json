@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "RM.SnakesAndLadders.Game/1.0.0": {
+        "dependencies": {
+          "RM.SnakesAndLadders": "1.0.0"
+        },
         "runtime": {
           "RM.SnakesAndLadders.Game.dll": {}
+        }
+      },
+      "RM.SnakesAndLadders/1.0.0": {
+        "runtime": {
+          "RM.SnakesAndLadders.dll": {}
         }
       }
     }
   },
   "libraries": {
     "RM.SnakesAndLadders.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RM.SnakesAndLadders/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

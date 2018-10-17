@@ -9,3 +9,17 @@ D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.AssemblyInfo.cs
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.dll
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.deps.json
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.runtimeconfig.json
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.runtimeconfig.dev.json
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.dll
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.csprojAssemblyReference.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.csproj.CoreCompileInputs.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.AssemblyInfoInputs.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.AssemblyInfo.cs
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.dll
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.csproj.CopyComplete

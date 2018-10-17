@@ -7,3 +7,12 @@ D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debu
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.AssemblyInfo.cs
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
 D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.deps.json
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.csprojAssemblyReference.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.csproj.CoreCompileInputs.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.AssemblyInfoInputs.cache
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.AssemblyInfo.cs
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
