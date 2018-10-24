@@ -3,7 +3,7 @@
 
 Status: Work in progress
 
-This demo can be used to test teh Snakes and ladders Kata 1 i.e being able to:
+This demo can be used to test the Snakes and ladders Kata 1 i.e being able to:
 	- Roll a dice
 	- Move player tokens 
 	- Check for a winner
@@ -11,5 +11,5 @@ This demo can be used to test teh Snakes and ladders Kata 1 i.e being able to:
 The demo program uses 2 constant player tokens named "Player 1" and "Player 2" 
 but this can be enhanced to accept the number of players on game start.
 There is also no GUI as I expect this is not necessary for this kata. 
-The game is played by having each user use the ENter button to roll the dice and
+The game is played by having each user use the Enter button to roll the dice and
 thus advance their token.
