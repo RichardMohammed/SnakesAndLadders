@@ -4,9 +4,9 @@ namespace RM.SnakesAndLadders
 {
     public class Token
     {
-        public int SquarePosition { get; set; }
         public bool IsWinner;
         public string PlayerName;
+        public int SquarePosition { get; private set; }
 
         public Token(string playerName)
         {
@@ -17,11 +17,10 @@ namespace RM.SnakesAndLadders
 
         public int MoveToSquare(int diceRoll)
         {
-            if(SquarePosition + diceRoll < 101)
-            {
-                SquarePosition += diceRoll;
-            }
+            if (diceRoll < 1 || diceRoll > 6)
+                return SquarePosition;
 
+            SquarePosition = SquarePosition + diceRoll < 101 ? SquarePosition + diceRoll : SquarePosition;
             return SquarePosition;
         }
     }

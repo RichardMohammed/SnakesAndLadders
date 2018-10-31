@@ -6,7 +6,7 @@ namespace RM.SnakesAndLadders
 {
     public class Board
     {
-        private List<Token> _playerTokens;
+        private readonly List<Token> _playerTokens;
         public string Message;
         
         public PlayStatus Status;
@@ -33,12 +33,6 @@ namespace RM.SnakesAndLadders
             }
 
             return false;
-        }
-
-        public void SetTokenPositionOnScreen(int squareNumber)
-        {
-            // We can use this to move the tokens across the board in the GUI
-            // based on the size of the board and the position of the squares on screen
         }
     }
 }

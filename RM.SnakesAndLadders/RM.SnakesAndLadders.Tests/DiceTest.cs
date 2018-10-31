@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -5,10 +8,10 @@ namespace RM.SnakesAndLadders.Tests
 {
     public class DiceTest
     {
-        public readonly ITestOutputHelper _output;
+        public readonly ITestOutputHelper Output;
         public DiceTest(ITestOutputHelper output)
         {
-            _output = output;
+            Output = output;
         }
 
         [Fact]
@@ -20,8 +23,18 @@ namespace RM.SnakesAndLadders.Tests
 
                 Assert.True(num > 0);
                 Assert.True(num < 7);
-                _output.WriteLine(num.ToString());
+                Output.WriteLine(num.ToString());
             }
         }
+
+        [Fact]
+        public void Dice_Roll_Consecutive_Rolls_Not_Same()
+        {
+            var rolls = Enumerable.Range(1, 6).Select(r => Dice.Instance.Roll()).ToList();
+            Assert.True(rolls.Distinct().Count() > 1);
+
+            Output.WriteLine($"{rolls[0].ToString()} {rolls[1].ToString()} {rolls[2].ToString()} {rolls[3].ToString()}");
+        }
+
     }
 }

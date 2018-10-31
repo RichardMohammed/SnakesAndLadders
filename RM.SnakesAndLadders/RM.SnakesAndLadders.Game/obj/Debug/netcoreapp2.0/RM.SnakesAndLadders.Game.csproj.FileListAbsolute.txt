@@ -23,3 +23,5 @@ C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLad
 C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
 C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb
 C:\Development\SourceCode\Demo\SnakesAndLadders\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\obj\Debug\netcoreapp2.0\RM.SnakesAndLadders.Game.csproj.CopyComplete
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.dll
+D:\Code\Navico\SnakesAndLadders\RM.SnakesAndLadders\RM.SnakesAndLadders.Game\bin\Debug\netcoreapp2.0\RM.SnakesAndLadders.pdb

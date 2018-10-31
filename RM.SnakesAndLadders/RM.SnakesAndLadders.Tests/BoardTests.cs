@@ -8,11 +8,11 @@ namespace RM.SnakesAndLadders.Tests
 {
     public class BoardTests
     {
-        public readonly ITestOutputHelper _output;
+        public readonly ITestOutputHelper Output;
 
         public BoardTests(ITestOutputHelper output)
         {
-            _output = output;
+            Output = output;
         }
 
         [Fact]
@@ -20,7 +20,11 @@ namespace RM.SnakesAndLadders.Tests
         {
             var token = new Token("Player 1");
             var gameBoard = new Board(new List<Token>{token });
-            token.SquarePosition = 100;
+
+            while (token.SquarePosition != 100)
+            {
+                token.MoveToSquare(3);
+            }
 
             var playerWins = gameBoard.WinnerFound();
 
@@ -33,8 +37,6 @@ namespace RM.SnakesAndLadders.Tests
         {
             var token = new Token("Player 1");
             var gameBoard = new Board(new List<Token> { token });
-            token.SquarePosition = 99;
-
             var playerWins = gameBoard.WinnerFound();
 
             Assert.True(!playerWins);
@@ -45,32 +47,14 @@ namespace RM.SnakesAndLadders.Tests
         public void Game_Can_Eventually_BeWon()
         {
             var player1Token = new Token("Player 1");
-            var player2Token = new Token("Player 2");
-            var players = new List<Token> { player1Token, player2Token };
-            var gameBoard = new Board(players);
+            var gameBoard = new Board(new List<Token> { player1Token });
             var playerWins = false;
-            var playerIndex = 0;
+
             while (!playerWins)
             {
-                var currentPlayer = players[playerIndex];
-                _output.WriteLine($"{currentPlayer.PlayerName}'s turn");
-
-                currentPlayer.MoveToSquare(Dice.Instance.Roll());
-
+                player1Token.MoveToSquare(Dice.Instance.Roll());
                 playerWins = gameBoard.WinnerFound();
-                var message = gameBoard.Message;
-
-                if(playerIndex < players.Count - 1)
-                {
-                    playerIndex++;
-                }
-                else
-                {
-                    playerIndex = 0;
-                }
-
-                _output.WriteLine(currentPlayer.SquarePosition.ToString());
-                _output.WriteLine(message);
+                Output.WriteLine(player1Token.SquarePosition.ToString());
             }
 
             Assert.True(playerWins);
