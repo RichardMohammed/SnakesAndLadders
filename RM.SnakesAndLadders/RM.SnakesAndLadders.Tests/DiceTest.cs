@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
@@ -17,7 +15,7 @@ namespace RM.SnakesAndLadders.Tests
         [Fact]
         public void Dice_Roll_Returns_Between_1And6()
         {
-            for (int i = 0; i < 50; i++)
+            for (var i = 0; i < 50; i++)
             {
                 var num = Dice.Instance.Roll();
 

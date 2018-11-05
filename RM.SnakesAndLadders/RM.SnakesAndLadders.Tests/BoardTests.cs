@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -19,7 +17,7 @@ namespace RM.SnakesAndLadders.Tests
         public void Winner_Can_BeFound()
         {
             var token = new Token("Player 1");
-            var gameBoard = new Board(new List<Token>{token });
+            var gameBoard = new Board(new List<IToken>{token });
 
             while (token.SquarePosition != 100)
             {
@@ -36,7 +34,7 @@ namespace RM.SnakesAndLadders.Tests
         public void Player_Does_Not_Win_If_Not_Square100()
         {
             var token = new Token("Player 1");
-            var gameBoard = new Board(new List<Token> { token });
+            var gameBoard = new Board(new List<IToken> { token });
             var playerWins = gameBoard.WinnerFound();
 
             Assert.True(!playerWins);
@@ -47,7 +45,7 @@ namespace RM.SnakesAndLadders.Tests
         public void Game_Can_Eventually_BeWon()
         {
             var player1Token = new Token("Player 1");
-            var gameBoard = new Board(new List<Token> { player1Token });
+            var gameBoard = new Board(new List<IToken> { player1Token });
             var playerWins = false;
 
             while (!playerWins)

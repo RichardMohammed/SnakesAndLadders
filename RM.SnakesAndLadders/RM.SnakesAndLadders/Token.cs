@@ -1,18 +1,14 @@
-﻿using System;
-
-namespace RM.SnakesAndLadders
+﻿namespace RM.SnakesAndLadders
 {
-    public class Token
+    public class Token : IToken
     {
-        public bool IsWinner;
-        public string PlayerName;
         public int SquarePosition { get; private set; }
+        public string PlayerName { get; set; }
 
         public Token(string playerName)
         {
             PlayerName = playerName;
             SquarePosition = 1;
-            IsWinner = false;
         }
 
         public int MoveToSquare(int diceRoll)

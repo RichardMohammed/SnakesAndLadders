@@ -1,49 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using Autofac;
 
-namespace RM.SnakesAndLadders.Game
+namespace RM.SnakesAndLadders.GameUI
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var player1Token = new Token("Player 1");
-            var player2Token = new Token("Player 2");
-            var players = new List<Token> { player1Token, player2Token };
-            var gameBoard = new Board(players);
-            var playerWins = false;
-            var playerIndex = 0;
-            var message = "Playing";
+            var container = ContainerConfig.Configure();
 
-            while (!playerWins)
+            using (var scope = container.BeginLifetimeScope())
             {
-                var currentPlayer = players[playerIndex];
-                Console.WriteLine($"{currentPlayer.PlayerName}'s turn. {Environment.NewLine} Press Enter to Roll your dice.");
-                var key = Console.ReadKey().Key.ToString();
-
-                if (key == "Enter")
-                {
-                    var roll = Dice.Instance.Roll();
-                    Console.WriteLine($"You have rolled a {roll}");
-
-                    currentPlayer.MoveToSquare(roll);
-                    Console.WriteLine($"You are now in position {currentPlayer.SquarePosition.ToString()}");
-
-                    playerWins = gameBoard.WinnerFound();
-                    message = gameBoard.Message;
-
-                    if (playerIndex < players.Count - 1)
-                    {
-                        playerIndex++;
-                    }
-                    else
-                    {
-                        playerIndex = 0;
-                    }
-                }
+                var app = scope.Resolve<IApplication>(new NamedParameter("playerNames",new List<string>{ "Player 1", "Player 2"}));
+                app.Run();
             }
-
-            Console.WriteLine(gameBoard.Message);
             Console.ReadLine();
         }
     }

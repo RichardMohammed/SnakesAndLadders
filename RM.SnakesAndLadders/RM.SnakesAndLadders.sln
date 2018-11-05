@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RM.SnakesAndLadders", "RM.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RM.SnakesAndLadders.Tests", "RM.SnakesAndLadders.Tests\RM.SnakesAndLadders.Tests.csproj", "{DFC77763-DCBD-48E6-A747-B681BB340309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RM.SnakesAndLadders.Game", "RM.SnakesAndLadders.Game\RM.SnakesAndLadders.Game.csproj", "{CAF11ED5-F7A5-4F23-AAF3-278AE9804A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RM.SnakesAndLadders.GameUI", "RM.SnakesAndLadders.Game\RM.SnakesAndLadders.GameUI.csproj", "{CAF11ED5-F7A5-4F23-AAF3-278AE9804A70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
